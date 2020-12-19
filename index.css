@@ -1,0 +1,222 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    font-family: 'Noto Sans JP', 'メイリオ', Meiryo, sans-serif;
+}
+
+header {
+    background-image: url("pic/mv_bg_pc.jpg");
+    padding-top: 35px;
+}
+
+.header-inner {
+    width: 960px;
+    margin:0 auto;
+    height: 1163px;
+}
+
+.header-left img{
+    width: 110px;
+}
+
+.header-right {
+    position: fixed;
+    top: 38px;
+    right: 35px;
+}
+
+.header-right a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    font-weight: 700px;
+}
+
+.header-right a:hover {
+    opacity: 0.7;
+}
+
+.header-right .tel {
+    background: linear-gradient(90deg, #1653ff, #2db1ff)
+}
+
+
+.header-right .mark-info {
+    margin-left: 20px;
+    background: linear-gradient(90deg, #FF2E8F, #FF85BD)
+}
+
+
+.key-words img{
+    width: 510px;
+    margin-top: 70px;
+}
+
+.performance-fv {
+    position: relative;
+}
+
+.performance-fv img {
+    width: 480px;
+    position: absolute;
+    top: -42px;
+}
+
+.application-info img{
+    width: 350px;
+    margin-top: 42px;
+}
+
+.bg-wrapper {
+    background-color: #F5F5F5;
+}
+
+.temporary-box img{
+    width: 270px;
+    position: absolute;
+    top: -100px;
+}
+
+.temporary-box {
+    height: 200px;
+    width: 1200px;
+    background-color: #12A7CB;
+    position: absolute;
+    left: 240px;
+    z-index: -1;
+}
+
+.performance-inner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.performance-contents {
+    padding: 40px 0px 20px 50px;
+    color: white;
+}
+
+.performance-contents h2 {
+    font-size:28px;
+}
+
+.performance-contents h1{
+    font-size: 36px;
+    font-size: 16px;
+}
+
+.performance-contents h1,h2 {
+    margin-bottom: 18px;
+}
+
+.question {
+    padding :73px 50px 45px;
+}
+
+.question ul {
+    list-style-position: inside;
+}
+
+.question ul li{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.customer-voice {
+    text-align: center;
+}
+
+.member-inner {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.member-logo img{
+    width: 230px;
+}
+
+.member-text p{
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.member-text h1{
+    font-weight: 900;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.member-img {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member-img img{
+    width: 480px;
+}
+
